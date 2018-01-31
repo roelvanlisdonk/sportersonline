@@ -1,0 +1,35 @@
+
+div, select {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.build-input {
+    margin: 20px;
+}
+
+.build-input .checkbox input[type="checkbox"] {
+    margin: 2px 4px 3px 0;
+    vertical-align: middle;
+}
+
+.build-input .checkbox.clone {
+    margin-bottom: 20px;
+}
+
+.build-input .environments {
+    margin-bottom: 20px;
+}
+
+.build-input .products {
+    margin-bottom: 20px;
+}
+
+.build-input select {
+    margin-bottom: 20px;
+}
+
+.build-input .title {
+    margin-bottom: 5px;
+}

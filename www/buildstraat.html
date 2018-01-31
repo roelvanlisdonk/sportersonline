@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <title>Buildstraat</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="description" content="Local development for am." />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" type="text/css" href="/buildstraat.css">
+    <script src="/require1k.custom.js" data-main="./buildstraat"></script>
+</head>
+<body>
+    <div class="build-input">
+        <div class="title">Release naam:</div>
+        <select>
+                <option>2017.9.0 Matterhorn</option>
+                <option>2017.8.0 Koekoek</option>
+                <option>2017.7.0 Eilandvis</option>
+                <option>2017.6.3 Regenboog hotfix 3</option>
+                <option>2017.6.0 Regenboog</option>
+                <option>2017.5.7 Paperclip (hotfix treeview refesh)</option>
+                <option>2017.5.0 Paperclip</option>
+                <option>2017.4.0 Genesis</option>
+                <option>2017.3.0 Himalaya</option>
+                <option>2016.99.9 Voor TEST doeleinden</option>
+        </select>
+
+        <div class="title">Versie: <span>183</span></div>
+        <div class="checkbox clone"><input type="checkbox"><span>Haal sources middels clone op.</span></div>
+
+        <div class="title">Welke producten wil je bouwen:</div>
+        <div class="products">
+                <div class="checkbox"><input type="checkbox"><span>Arbois Oud</span></div>
+                <div class="checkbox"><input type="checkbox"><span>Arbois Nieuw</span></div>
+                <div class="checkbox"><input type="checkbox"><span>BusinessServer</span></div>
+                <div class="checkbox"><input type="checkbox"><span>MijnZvdZ</span></div>
+                <div class="checkbox"><input type="checkbox"><span>ZvdZ-O</span></div>
+                <div class="checkbox"><input type="checkbox"><span>ZvdZ-Batch</span></div>
+                <div class="checkbox"><input type="checkbox"><span>XmlInterface-SOAP</span></div>
+                <div class="checkbox"><input type="checkbox"><span>XmlInterface-WebApi</span></div>
+                <div class="checkbox"><input type="checkbox"><span>Document-Import-Service</span></div>
+                <div class="checkbox"><input type="checkbox"><span>Database-Programmability</span></div>
+                <div class="checkbox"><input type="checkbox"><span>Database-Scripts</span></div>
+        </div>
+
+        <div class="title">Deployen naar:</div>
+        <div class="environments">
+                <div class="checkbox"><input type="checkbox"><span>T1</span></div>
+                <div class="checkbox"><input type="checkbox"><span>T2</span></div>
+                <div class="checkbox"><input type="checkbox"><span>T3</span></div>
+                <div class="checkbox"><input type="checkbox"><span>ACC</span></div>
+        </div>
+    </div>
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+    </script> 
+</body>
+</html>

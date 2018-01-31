@@ -1,0 +1,23 @@
+{
+  "name": "am",
+  "version": "1.0.0",
+  "description": "Dev version for am.",
+  "author": "Roel van Lisdonk",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build && npm run watch-serve",
+    "build": "npm run build-ts",
+    "build-ts": "tsc",
+    "serve": "node server.js",
+    "watch-serve": "concurrently \"npm run watch-ts\" \"npm run serve\"",
+    "watch-ts": "tsc -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "9.4.0",
+    "concurrently": "3.5.1",
+    "es-module-loader": "2.2.8",
+    "livereload": "0.6.3",
+    "typescript": "2.7.1"
+  }
+}
